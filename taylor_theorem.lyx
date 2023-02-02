@@ -1,0 +1,228 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+Taylor's Theorem :-
+\end_layout
+
+\begin_layout Standard
+Let 
+\begin_inset Formula $f$
+\end_inset
+
+ : 
+\begin_inset Formula $[a,b]$
+\end_inset
+
+ 
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+ 
+\begin_inset Formula $R$
+\end_inset
+
+, 
+\begin_inset Formula $f,f^{'},f^{''},.......,f^{(n-1)}$
+\end_inset
+
+ be continuous on 
+\begin_inset Formula $[a,b]$
+\end_inset
+
+ and suppose 
+\begin_inset Formula $f^{(n)}$
+\end_inset
+
+exits on 
+\begin_inset Formula $(a,b)$
+\end_inset
+
+.
+ Then there exits 
+\begin_inset Formula $c\in\left(a,b\right)$
+\end_inset
+
+ such that 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $f\left(b\right)=f\left(a\right)$
+\end_inset
+
+ 
+\begin_inset Formula $+f^{'}\left(a\right)\left(b-a\right)+\frac{f^{''\left(a\right)}}{2!}\left(b-a\right)^{2}+.....+\frac{f^{(n-1)}\left(a\right)}{\left(n-1\right)!}\left(b-a\right)^{\left(n-1\right)}+\frac{f^{\left(n\right)}\left(c\right)}{n!}\left(b-a\right)^{n}.$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Proof :- Define
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $F\left(x\right)=f\left(b\right)-f\left(x\right)-f^{'}\left(x\right)\left(b-x\right)-\frac{f^{''}\left(x\right)}{2!}\left(b-x\right)^{2}-.......-\frac{f^{\left(n-1\right)}\left(x\right)}{\left(n-1\right)!}\left(b-x\right)^{\left(n-1\right)}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+We will show that 
+\begin_inset Formula $F\left(a\right)=\frac{\left(b-a\right)^{n}}{n!}f^{\left(n\right)}\left(c\right)$
+\end_inset
+
+ for some 
+\begin_inset Formula $c\in\left(a,b\right)$
+\end_inset
+
+, which will prove the theorem.
+\end_layout
+
+\begin_layout Standard
+Note that
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+F^{'}\left(x\right)=-\frac{f^{\left(n\right)}\left(x\right)}{\left(n-1\right)!}\left(b-x\right)^{\left(n-1\right)}\cdots\cdots\cdots Eq\left(1.\right)
+\]
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+Define 
+\begin_inset Formula $g\left(x\right)=F\left(x\right)-\left(\frac{b-x}{b-a}\right)^{n}F\left(a\right).$
+\end_inset
+
+ It is easy to check that 
+\begin_inset Formula $g\left(a\right)=g\left(b\right)=0$
+\end_inset
+
+ and hence by Rolle's theorem there exits some 
+\begin_inset Formula $c\in$
+\end_inset
+
+
+\begin_inset Formula $\left(a,b\right)$
+\end_inset
+
+such that 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+g^{'}\left(c\right)=F^{'}\left(c\right)+\frac{n\left(b-c\right)^{\left(n-1\right)}}{\left(b-a\right)^{n}}F\left(a\right)=0\cdots\cdots\cdots Eq\left(2.\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+From 
+\begin_inset Formula $\left(1\right)$
+\end_inset
+
+ and 
+\begin_inset Formula $\left(2\right)$
+\end_inset
+
+ we obtain that 
+\begin_inset Formula $\frac{f^{\left(n\right)}\left(c\right)}{\left(n-1\right)!}\left(b-c\right)^{\left(n-1\right)}$
+\end_inset
+
+ 
+\begin_inset Formula $=\frac{n\left(b-c\right)^{\left(n-1\right)}}{\left(b-a\right)^{n}}F\left(a\right).$
+\end_inset
+
+This implies that 
+\begin_inset Formula $F\left(a\right)=\frac{\left(b-a\right)^{n}}{n!}f^{\left(n\right)}\left(c\right).$
+\end_inset
+
+ This proves the theorem.
+\end_layout
+
+\end_body
+\end_document
